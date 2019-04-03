@@ -4,8 +4,10 @@ import { AccomodationComponent } from '../app/components/accomodation/accomodati
 import { FoodBeverageComponent } from '../app/components/food-beverage/food-beverage.component';
 import { LifestyleComponent } from '../app/components/lifestyle/lifestyle.component';
 import { SignupComponent } from '../app/core/auth/signup/signup.component';
+import { HomeComponent } from './module/home/home.component';
 
 const routes: Routes = [
+  { 'path': "", component: HomeComponent },
   { 'path': "accomodation", component: AccomodationComponent },
   { 'path': "food-beverage", component: FoodBeverageComponent },
   { 'path': "lifestyle", component: LifestyleComponent },

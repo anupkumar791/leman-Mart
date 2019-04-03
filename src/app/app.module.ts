@@ -21,6 +21,9 @@ import { ResortActivitiesComponent } from './components/lifestyle/resort-activit
 import { ExperiencesComponent } from './components/lifestyle/experiences/experiences.component';
 import { ExcursionsComponent } from './components/lifestyle/excursions/excursions.component';
 import { SignupComponent } from './core/auth/signup/signup.component';
+import { HomeComponent } from './module/home/home.component';
+import { NavtabComponent } from './core/navtab/navtab.component';
+import { SideNavComponent } from './core/side-nav/side-nav.component';
 
 
 
@@ -41,7 +44,10 @@ import { SignupComponent } from './core/auth/signup/signup.component';
     ResortActivitiesComponent,
     ExperiencesComponent,
     ExcursionsComponent,
-    SignupComponent
+    SignupComponent,
+    HomeComponent,
+    NavtabComponent,
+    SideNavComponent
    
     
   ],
